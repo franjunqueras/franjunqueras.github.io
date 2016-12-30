@@ -1,0 +1,119 @@
+body {
+	background-color: #eae8e9;
+}
+
+.brand-redes {
+	height: 90px;
+	display: flex;
+}
+
+.brand {
+	font-size: 35px;
+	padding: 20px 0;
+	color: #226aad;
+}
+
+.flex-iconos {
+	display: flex;
+	justify-content: flex-end;
+	align-items:center;
+}
+
+.container {
+	.ion-social-twitter, .ion-social-facebook, .ion-social-pinterest, .ion-social-linkedin {
+		color: #595959;
+		font-size: 20px;
+		padding: 7px;
+		background-color: #bcbcbc;
+		border-radius: 50%;
+		width: 40px;
+		height: 40px;
+		box-sizing: border-box;
+		text-align: center;
+		margin: 0 5px;
+		cursor: pointer;
+		&.active, &:hover {
+			background-color: #226aad;
+			color: white;
+			transition: .3s;
+		}
+	}
+}
+
+.menu {
+	background-color: #333;
+	a {
+		color: white;
+	}
+	.ion-search {
+		color: white;
+		font-size: 20px;
+	}
+}
+
+.container {
+	.banner {
+		padding: 0 20px 0 0;
+		.jumbotron {
+			margin: 20px 0 0 0;
+			background-image: url("../img/banner.jpg");
+			height: 380px;
+			background-color: #1a93c0;
+			background-repeat: no-repeat;
+			border-radius: 0;
+			background-size: contain;
+			padding: 210px 0 0 280px;
+			.dinero {
+				display: flex;
+				justify-content: flex-end;
+			}
+		}
+	}
+	.columna-lado {
+		margin: 20px 0 0 0;
+		background-color: white;
+		padding: 0;
+		.sin-padding {
+			padding: 0;
+		}
+		.margenes {
+			padding: 15px 15px;
+		}
+		.txt-rojo {
+			p {
+				color: #d44c60;
+				font-weight: 500;
+			}
+		}
+		.txt-celeste {
+			p {
+				color: #1a93c0;
+				font-weight: 500;
+			}
+		}
+		.ion-close-round {
+			display: flex;
+			justify-content: flex-end;
+			color: #d44c60;
+		}
+		.ion-close-round.celeste {
+			display: flex;
+			justify-content: flex-end;
+			color: #1a93c0;
+		}
+		figure {
+			img {
+				width: 50px;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
